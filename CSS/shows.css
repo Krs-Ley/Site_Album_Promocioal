@@ -1,0 +1,63 @@
+body{
+	font-family: "sans-serif", Arial;
+}
+
+#btn-menu{
+	display: none;
+	
+}
+
+header{
+	
+	background:none;
+	font-weight:700;
+	position: relative;
+}
+header-label{
+	color:#efefef;
+	font-size: 25px;
+	display:block;
+	padding: 5px 10px; /*cima baixo e esquerda direita*/
+	width: 20px;
+	border-right: 1px solid #efefef;
+	display: none; 
+}
+header-label:hover{
+	background-color: #ff5900;
+}
+/*LAYOT dos topicos do MENU*/
+.menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display: flex;
+	
+}
+/* Segmenta O MENU*/
+.menu li a{
+	color:#efefef;
+	text-decoration: none; /*tirar o frisado de link*/
+	padding: 15px 20px;
+	display: block;
+	border-right: 1px solid #efefef;	
+}
+.menu li a:hover{
+	background-color: #ff5900;	
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

@@ -1,0 +1,87 @@
+body{
+	margin:0;
+	font-family:sans-serif; 
+    text-align: center;	
+	background-image:url(file:///C:/Users/krisl/Documents/Programa%C3%A7%C3%A3o/Pagina%20Web/AD-2/img%20AD/bg4.jpg);
+	background-attachment:fixed;
+	background-position:center
+}
+h1{
+	color: white;
+	font-size:80px;
+	font-weight: bold;
+}
+h2{
+	color: white;
+	font-weight: bold;
+	font-size:30px;
+	
+}
+h4{color: white;
+	
+}
+h5{color: white;
+	
+}
+#box{
+	width:600px;
+	padding:50px;
+	height:500px;
+	background-image: url(file:///C:/Users/krisl/Documents/Programa%C3%A7%C3%A3o/Pagina%20Web/AD-2/Fart.jpg);
+	background-color:white;
+	
+}
+#container{
+	width:580px;
+	padding:20px;
+	height:780px;
+	margin:auto;
+	background-color:black;
+	display:table;
+	
+}
+#btn-menu{
+	display: none;
+}
+
+header{
+	
+	font-weight:700;
+	position: relative;
+}
+header-label{
+	color:#efefef;
+	font-size: 25px;
+	display:block;
+	padding: 5px 10px; /*cima baixo e esquerda direita*/
+	width: 20px;
+	border-right: 1px solid #efefef;
+	display: none; 
+}
+header-label:hover{
+	background-color: #ff5900;
+}
+/*LAYOT dos topicos do MENU*/
+.menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display: flex;
+	transition:all .5s; 
+}
+/* Segmenta O MENU*/
+.menu li a{
+	color:#efefef;
+	text-decoration: none; /*tirar o frisado de link*/
+	padding: 15px 20px;
+	display: block;
+	border-right: 1px solid #efefef;	
+}
+.menu li a:hover{
+	background-color: #ff5900;	
+}
+
+
+/*teste*/
+
+
